@@ -1,0 +1,10 @@
+git add .
+git commit -m “Initial release”
+git tag v0.0.1
+git push origin master --tags
+
+npm version patch, minor, major -m "Version %s - "
+
+git push && git push --tags (or git push origin master --tags)
+
+npm publish
