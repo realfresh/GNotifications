@@ -6,6 +6,8 @@ git push origin master --tags
 
 npm version patch, minor, major -m "Version %s - "
 
+npm version minor -m "Version %s - "
+
 git push && git push --tags (or git push origin master --tags)
 
 npm publish
