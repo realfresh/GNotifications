@@ -2,7 +2,7 @@
   
   position: fixed;
   overflow: visible;
-  z-index: 1982;
+  z-index: 9000000000;
   transform: translate3d(0,0,0);
   width: 90%;
   max-width: 500px;
@@ -53,22 +53,22 @@
     }
 
     &.success {
-      background: rgba(91, 189, 114,.95);
+      background: rgba(91, 189, 114,1);
       color: white;
     }
 
     &.error {
-      background: rgba(217, 92, 92,.95);
+      background: rgba(217, 92, 92,1);
       color: white;
     }
 
     &.warning {
-      background: rgba(252, 215, 30, 0.95);
+      background: rgba(252, 215, 30, 1);
       color: white;
     }
 
     &.info {
-      background: rgba(237, 237, 237, 0.93);
+      background: rgba(237, 237, 237, 1);
     }
 
     .close {
