@@ -2,9 +2,13 @@
   "name": "g-notifications",
   "version": "0.0.2",
   "description": "javascript notifications",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jsbuild": "babel src -d dist",
+    "sassbuild": "node-sass --output-style compressed src/style.scss > styles.css --o dist",
+    "build": "npm run jsbuild && npm run sassbuild",
+    "exampleBundle": "browserify ./example/unbundled.js -o ./example/test.js",
+    "buildtest": "npm run build && npm run exampleBundle"
   },
   "repository": {
     "type": "git",
@@ -18,5 +22,14 @@
   "engines": {
     "node": ">=6.9.0"
   },
-  "homepage": "https://github.com/realfresh/GNotifications#readme"
+  "homepage": "https://github.com/realfresh/GNotifications#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "node-sass": "^4.5.3"
+  }
 }
