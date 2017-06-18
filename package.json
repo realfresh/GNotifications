@@ -7,7 +7,7 @@
     "jsbuild": "babel src -d dist",
     "sassbuild": "node-sass --output-style compressed src/style.scss > styles.css --o dist",
     "build": "npm run jsbuild && npm run sassbuild",
-    "exampleBundle": "browserify ./example/unbundled.js -o ./example/test.js",
+    "exampleBundle": "browserify ./index_example.js -o ./index_example_bundled.js",
     "buildtest": "npm run build && npm run exampleBundle"
   },
   "repository": {
