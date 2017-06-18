@@ -15,7 +15,7 @@ npm install --save g-notifications
 
 ### 2. Import Stylesheet
 
-Either copy the stylesheet from the "dist" directory or import the SASS file from the src folder
+Either user the css stylesheet from the "dist" directory or import the SASS file from the src folder
 
 ### 3. Import / Require In Code
 
