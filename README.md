@@ -1,5 +1,5 @@
 # GNotifications
-Simple JS notificaitons
+Dead Simple, Zero Dependency JS Notifications
 
 *Demo*
 Live Example: https://realfresh.github.io/GNotifications/index
