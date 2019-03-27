@@ -1,7 +1,10 @@
 # GNotifications
+
 Dead Simple, Zero Dependency JS Notifications
 
 Demo: https://realfresh.github.io/GNotifications/index
+
+> Sponsored by [CloudWaitress - Online Food Ordering & Reservation System For Restaurants](https://www.cloudwaitress.com)
 
 ## Usage
 
